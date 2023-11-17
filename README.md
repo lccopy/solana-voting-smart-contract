@@ -1,3 +1,3 @@
-# solana-voting-smart-contract
+# Solidity-voting-smart-contract
 
 Work in progress.
