@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}Résultats des votes{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2>Results</h2>
+    <ul class="list-group">
+        {% for candidate in results %}
+        <li class="list-group-item">
+            {{ candidate.name }}: {{ candidate.voteCount }} votes
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}
